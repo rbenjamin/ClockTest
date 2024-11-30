@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5AC2F412CFB7BA700FC9515 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5AC2F402CFB7BA700FC9515 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B5D7C7B92C9DC7E600DE7A75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5AC2F402CFB7BA700FC9515 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5D7C7A82C9DC7E200DE7A75 /* ClockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7C7B82C9DC7E600DE7A75 /* ClockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7C7C22C9DC7E600DE7A75 /* ClockTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +101,7 @@
 		B5D7C79F2C9DC7E200DE7A75 = {
 			isa = PBXGroup;
 			children = (
+				B5AC2F402CFB7BA700FC9515 /* README.md */,
 				B5D7C7AA2C9DC7E200DE7A75 /* ClockTest */,
 				B5D7C7BB2C9DC7E600DE7A75 /* ClockTestTests */,
 				B5D7C7C52C9DC7E600DE7A75 /* ClockTestUITests */,
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AC2F412CFB7BA700FC9515 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
